@@ -1,0 +1,81 @@
+.container{
+    position: relative;
+    min-height: 100%;
+    color: black;
+}
+.container .left-box{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    box-shadow:2px 2px 2px #aaaaaa;
+    background: url(images/dibanzhuan.jpg);
+
+}
+
+.container .left-box .userimg{
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+.container .left-box .userimg .imgbox{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    overflow: hidden;
+    left:50%;
+    margin-left: -50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow:-2px 0 2px #aaaaaa,0 -2px 2px #aaaaaa,0 2px 2px #aaaaaa,2px 0 2px #aaaaaa;
+
+}
+
+.container .left-box .userimg .imgbox img{
+    max-height: 150%;
+    max-width: 150%;
+}
+
+.container .left-box .brief {
+    text-align: center;
+    padding: 25px 0;
+
+}
+
+.container .left-box .brief .username {
+    font: 24px/30px '微软雅黑','宋体';
+    margin-bottom: 20px;
+}
+
+.container .left-box .brief .infobrief {
+    font: 16px/30px '微软雅黑','宋体';
+}
+
+.container .left-box .blogs {
+    text-align: center;
+    position: relative;
+    width: 220px;
+    height: 40px;
+    left: 40px;
+}
+
+.container .left-box .blogs ul li  {
+    float: left;
+    width: 60px;
+    padding-left: 10px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+
+
+.container .right-box{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 500px;
+}
