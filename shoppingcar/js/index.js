@@ -57,7 +57,14 @@ $(function () {
                 $('.screen07 .star img').each(function (i,item) {
                     $(this).css('transition-delay',i*0.5+'s')
                 })
-            } 
+            }
+
+            if (index == 7 && nextIndex == 8){
+                //隐藏更多按钮
+                $('.more').css({"display":"none"})
+            } else {
+                $('.more').css({"display":"block"})
+            }
         }
     });
 })
