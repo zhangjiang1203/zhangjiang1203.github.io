@@ -24,13 +24,13 @@ $(function () {
             });
 
             //第八屏跟着鼠标移动
-            $('.screen08').on('mousemove',function (e) {
-                   console.log(e.clientX,e.clientY);
-                   $('.screen08 .hands').css({
-                      left:e.clientX-60,
-                      top:e.clientY
-                   });
-            });
+            // $('.screen08').on('mousemove',function (e) {
+            //        console.log(e.clientX,e.clientY);
+            //        $('.screen08 .hands').css({
+            //           left:e.clientX,
+            //           top:e.clientY
+            //        });
+            // });
 
             //重新开始
             $('.screen08 .again').on('click',function () {
